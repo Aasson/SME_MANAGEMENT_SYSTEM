@@ -1,0 +1,241 @@
+*{
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+#Connection_Interface_Body{
+    background: url("../MEDIA/IMG/Connection_Interface_Background.jpg");
+    background-size: cover;
+}
+#Dashboard_Body{
+    background: url("../MEDIA/IMG/Dashboard_Background.jpg");
+    background-size: cover;
+}
+#Administration_Header{
+    height: 75px;
+    margin: 20px 20px 0px 20px;
+    padding: 0;
+    background: rgba(0 , 0 , 0 , 0.6);
+    border: 2px transparent solid;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000075;
+    color: #FFA500;
+    text-shadow: 5px 5px 10px #FFA500A5;
+}
+#Administration_Header:hover{
+    box-shadow: 0px 0px 50px #000000A5;
+    transition-duration: 0.3s;
+}
+#Connection_Interface_Form{
+    width: 350px;
+    height: 650px;
+    margin: 100px auto;
+    padding: 55px;
+    border: 2px transparent solid;
+    border-radius: 55px;
+    background: rgba(0 , 0 , 0 , 0.6);
+    backdrop-filter: blur(20px);
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #000000;
+}
+#Connection_Interface_Form_Avatar{
+    background: #00000000;
+    margin: 30px;
+    border-radius: 50%;
+    margin: 30px 0px 0px 0px;
+    box-shadow: 0px 0px 40px #FFA500A5;
+}
+#Connection_Interface_Form_Title{
+    color: #FFA500;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px #FFA50095;
+    margin: 35px 0px 75px 0px;
+}
+.Connection_Interface_Form_Input{
+    width: 300px;
+    height: 50px;
+    margin: 0px 0px 50px 0px;
+    border: 3px transparent solid;
+    background: linear-gradient(145deg , rgba(0 , 0 , 0 , 0.2) , rgba(0 , 0 , 0 , 0.6));
+    border-radius: 15px;
+    text-align: center;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 30px #FFA50040;
+    font-size: 20px;
+    color: #FFA500;
+    font-weight: 600;
+}
+.Connection_Interface_Form_Input:hover{
+    width: 350px;
+}
+.Connection_Interface_Form_Input::placeholder{
+    color: #AF7500;
+}
+#Connection_Interface_Form_Submit{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px transparent solid;
+    border-radius: 20px;
+    background: #FFFFFF55;
+    box-shadow: 0px 0px 50px #000000A5;
+    color: #FFA500;
+}
+#Connection_Interface_Footer{
+    height: 45px;
+    width: 98%;
+    margin: 0% 1%;
+    padding: 0px 0px 20px 0px;
+    position: fixed;
+    bottom: 15px;
+    text-align: center;
+    background: rgba(0 , 0 , 0 , 0.6);
+    border: 2px transparent solid;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000075;
+    color: #FFA500;
+    font-size: 18px;
+}
+#Sidebar{
+    width: 380px;
+    height: 82vh;
+    margin: 25px 0px 0px 0px;
+    position: fixed;
+    left: 25px;
+    background: rgba(0 , 0 , 0 , 0.5);
+    border: 2px transparent solid;
+    border-radius: 30px;
+    backdrop-filter: blur(40px);
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000075;
+}
+#Sidbar_Profil_Section{
+    width: 320px;
+    margin: 25px;
+    background: rgba(0 , 0 , 0 , 0.4);
+    border: 2px transparent solid;
+    border-radius: 25px;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000095;
+    color: #FFA500;
+}
+#Sidebar_Profil_Section_Profil_Picture{
+    width: 180px;
+    height: 180px;
+    margin: 25px 0px 0px 0px;
+    border: 2px transparent solid;
+    border-radius: 50%;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000095;
+}
+#Sidebar_Profil_Section_Name{
+    margin: 10px 0px;
+}
+#Sidebar_Profil_Section_Grade{
+    margin: 0;
+}
+#Sidebar_Profil_Section_Databases_Connection_Statut_Dot{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border: 0px;
+    border-radius: 50%;
+    background: #00FF00;
+}
+#Sidebar_Profil_Section_Databases_Connection_Statut_Phrase{
+    display: inline-block;
+    color: #00FF00;
+}
+#Sidebar_Menu_Section{
+    width: 320px;
+    margin: 25px;
+    background: rgba(0 , 0 , 0 , 0.4);
+    border: 2px transparent solid;
+    border-radius: 25px;
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000095;
+    color: #FFA500;
+    padding-bottom: 23px;
+}
+#Sidebar_Section_Navbar{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+}
+#Sidebar_Section_Navbar_List{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Sidebar_Menu_Section_Navbar_List_Item{
+    display: block;
+    width: 100%;
+    margin-top: 22px;
+}
+.Sidebar_Menu_Section_Navbar_List_Item_Link{
+    text-decoration: none;
+    color: #FFA500;
+    font-size: 20px;
+    font-weight: 600;
+
+    border-bottom: 2px #FFFFFF25 solid;
+    border-radius: 17px;
+}
+
+
+
+
+
+
+#Dashboard{
+    padding: 10px 100px;
+}
+#Create_Business{
+    padding: 10px 79px;
+}
+#Edit_Business{
+    padding: 10px 91px;
+}
+#Finance{
+    padding: 10px 115px;
+}
+#Plans{
+    padding: 10px 126px;
+}
+#Functionality{
+    padding: 10px 92px;
+}
+#Documentation{
+    padding: 10px 80px;
+}
+.Active{
+    border: 2px #FFA500 solid;
+    box-shadow: 0px 0px 20px #FFA50095;
+}
+
+#Dashboard_Section{
+    width: 100%;
+    height: 82vh;
+    padding: 25px 400px 0px 20px;
+}
+#Dashboard_Section_Container{
+    width: 82%;
+    height: 82vh;
+    position: fixed;
+    left: 435px;
+    background: rgba(0 , 0 , 0 , 0.5);
+    border: 2px transparent solid;
+    border-radius: 30px;
+    backdrop-filter: blur(40px);
+    background-clip: padding-box;
+    box-shadow: 0px 0px 50px #00000075;
+}
